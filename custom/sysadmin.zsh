@@ -11,3 +11,6 @@ alias apwatch="watch --interval "\$APWATCH_INTERVAL" 'curl -s -H \"Cache-control
 
 # Restart Apache
 alias aprestart="service apache2 restart"
+
+# Check connection quality
+alias conncheck='mtr -s 1500 -r -c 1000 -i 0.1'
