@@ -14,3 +14,8 @@ alias aprestart="service apache2 restart"
 
 # Check connection quality
 alias conncheck='mtr -s 1500 -r -c 1000 -i 0.1'
+
+# Make a backup of a file
+function bak() {
+  cp $1 ${1}.bak
+}
