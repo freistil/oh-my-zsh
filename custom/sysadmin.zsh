@@ -1,5 +1,5 @@
 #
-# Aliases
+# Alias commands
 #
 
 # Wake up a sleeping chef-client
@@ -14,6 +14,20 @@ alias aprestart="service apache2 restart"
 
 # Check connection quality
 alias conncheck='mtr -i 0.1'
+
+#
+# Alias shortcuts
+# (especially useful for mobile logins)
+#
+
+# tail -f
+alias tf="tail -f"
+
+# pipe grep
+alias -g pgr="| grep"
+
+# pipe tail
+alias -g pta="| tail"
 
 #
 # Utilities
