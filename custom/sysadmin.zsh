@@ -14,6 +14,7 @@ alias aprestart="service apache2 restart"
 
 # Check connection quality
 alias conncheck='mtr -i 0.1'
+alias connrep='mtr -i 0.1 -r -c 1000'
 
 #
 # Alias shortcuts
@@ -31,7 +32,7 @@ alias -g pta="| tail"
 
 #
 # Utilities
-# 
+#
 
 # Make a backup of a file
 function bak() {
